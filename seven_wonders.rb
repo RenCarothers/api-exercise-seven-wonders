@@ -8,7 +8,7 @@ BASE_URL = "https://us1.locationiq.com/v1/search.php"
 LOCATION_IQ_KEY = ENV['IQ_KEY']
 
 unless ENV['IQ_KEY']
-  puts "Could not load API key, please store in the environment variable 'MOVIEDB_API_KEY'"
+  puts "Could not load API key, please store in the environment variable 'IQ_KEY'"
   exit
 end
 
